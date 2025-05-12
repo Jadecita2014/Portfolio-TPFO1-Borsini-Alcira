@@ -1,0 +1,71 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #867979;
+  /*to do: mejorarle el estilo de letra y ver otro color para el background*/
+  }
+  
+  /* Encabezado */
+  header {
+    text-align: center;
+    background-color: #e0e0e0;
+    padding: 20px;
+  }
+  
+  /* Imagen de perfil */
+
+  section img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+ /*to do:mejorar bordes de la foto y ver de agregarle formato circular*/
+  }
+  
+  /* Secciones */
+  section {
+    margin: 20px 0;
+  }
+  
+  /* Tabla */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #999;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+
+  /* to do: ver de modificar el background a los encabezados para destacarlos mejor*/
+  }
+  
+  /* Formulario */
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  label, input {
+    margin: 5px 0;
+  }
+  
+  input[type="submit"] {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+ /*to do: mejorar el color del boton de Submit y ver de aplicarle un efecto de sombra*/
+  }
+  
+  /* Pie de página */
+  footer {
+    text-align: center;
+    margin-top: 40px;
+  }
